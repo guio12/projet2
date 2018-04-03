@@ -1,0 +1,93 @@
+
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #6495ED;
+    color: white;
+}
+
+
+.navbar-brand {
+    margin-right: 10vh;
+}
+
+
+
+
+.navbar-toggler {
+    width: 7vh;
+    height: 7vh;
+    padding: 0;
+    
+    border: 10px solid white;
+   
+
+}
+
+.navbar-toggler-icon {
+    width: 5vh;
+    height: 5vh;
+    color: white;
+}
+
+.navbar-collapse {
+    font-size: 1.5em;
+    font-family: "Oxygen", sans-serif;
+}
+
+.nav-item {
+    color: white;
+}
+
+.nav-item:hover {
+    color: white;
+    /*font-size: 1.3em;*/
+}
+
+.nav-fill {
+    font-size: 1.5vx;
+    color: white;
+    margin-left: 10vh;
+}
+
+/* IDEE TRANSPARENCE MENU
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 }
+*/
+
+
+
+
+ .navbar li {
+    color: white;
+    
+    
+}
+
+.navbar {
+    margin: 3vh;
+     margin-top: 3vw;
+}
+
+
+
+.navbar-brand img {
+  
+  width: 35vw;
+  height: 5vw;
+
+}
+
+
+
+@font-face {
+    font-family: "Oxygen"
+    src: url("https://fonts.googleapis.com/css?family=Oxygen");
+}
+
+
