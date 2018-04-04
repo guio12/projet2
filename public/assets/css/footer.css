@@ -1,7 +1,13 @@
-p{ color: white;}
 
-.jumbotron { border-radius: 0; background: # ;}
+
+.jumbotron { color: white; border-radius: 0; background: # ;}
 
 p {text-align: center;}
 
-a {color: white;}
+a {color: black;}
+
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+	color: #FFF;
+}

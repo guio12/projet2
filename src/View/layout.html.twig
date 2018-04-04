@@ -7,22 +7,50 @@
 
     <title>{% block title %}{% endblock %}</title>
 
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    
-    {% block stylesheet %}{% endblock %}
+    {% block stylesheet %}
+    {% include '/StrasCook/styles.html.twig' %}
+    {% endblock %}
+
+
+    {% block stylesheetpages %}
+
+     {% endblock %}
+
+
     
     <link rel="icon" href="/assets/images/favicon.png">
 </head>
 
-<header>
-  
-{% block header %}{% endblock %}
-  
-</header>
+
 
 <body>
-    {% block content %}{% endblock %}
+   <header>
+
+    {% block header %}
+    {% include '/StrasCook/header.html.twig' %}
+    {% endblock %}
+
+</header>
+   
+    {% block content %}
+
+    {% endblock %}
+
+<footer>
+
+    {% block footer %}
+    {% include '/StrasCook/footer.html.twig' %}
+    {% endblock %}
+
+</footer>
+
+
+    {% block javascript %}
+    {% include '/StrasCook/javascript.html.twig' %}
+    {% endblock %}
+
 </body>
-<footer>{% block footer %}{% endblock %}</footer>
-{% block javascript %}{% endblock %}
+
+
+
 </html>
