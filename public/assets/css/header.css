@@ -1,37 +1,102 @@
+@import 
+    url("https://fonts.googleapis.com/css?family=Oxygen");
+@import 
+     url("https://fonts.googleapis.com/css?family=Muli");
 
 
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #6495ED;
-    color: white;
+
+
+h1 {
+    margin-top: 0;
 }
 
+header {
+   
+    margin-bottom: 0 !important;
+    padding-top: 3vh !important;
+}
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+.mynav {
+    background-image: url("/assets/img/fond_header.jpg");
+    height: 70vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top:0;
+}
+
+
+.mynav h1 {
+    font-family: "Muli", cursive;
+    color: white;
+    font-size: 8vh;
+    margin-top: 15vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    justify-content:center;
+    align-content: center;
+}
+
+.navbar {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: -3vh;
+   
+}
+
+
+  /*<img src="/assets/img/fond_header.jpg" alt="banner" class="img-fluid" id="banner" />*/
+
+/*header {
+    background-image: url("/assets/img/fond_header.jpg");
+    background-position: top-center;
+    background-size: 300vh;
+    background-repeat: no-repeat;
+}
+*/
 
 .navbar-brand {
     margin-right: 10vh;
 }
 
 
-
-
-.navbar-toggler {
-    width: 7vh;
-    height: 7vh;
-    padding: 0;
-    
-    border: 10px solid white;
+.img-fluid {
+     
    
+    
 
 }
 
-.navbar-toggler-icon {
-    width: 5vh;
-    height: 5vh;
+button span {
     color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 4vw;
+    padding: 3px;
+    
 }
 
-.navbar-collapse {
-    font-size: 1.5em;
+
+ .navbar-toggler {
+
+    margin-left: 3vh;
+    margin-right: 0;
+    margin-top: 0;
+   
+}
+
+
+
+
+
+.navbar-collapse a {
+    font-size: 2em;
     font-family: "Oxygen", sans-serif;
 }
 
@@ -45,7 +110,8 @@
 }
 
 .nav-fill {
-    font-size: 1.5vx;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1vmax;
     color: white;
     margin-left: 10vh;
 }
@@ -69,10 +135,6 @@
     
 }
 
-.navbar {
-    margin: 3vh;
-     margin-top: 3vw;
-}
 
 
 
@@ -80,14 +142,12 @@
   
   width: 35vw;
   height: 5vw;
+ 
 
 }
 
 
 
-@font-face {
-    font-family: "Oxygen"
-    src: url("https://fonts.googleapis.com/css?family=Oxygen");
-}
+
 
 
