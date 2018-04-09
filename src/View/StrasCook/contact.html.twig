@@ -1,0 +1,64 @@
+{% extends 'layout.html.twig' %}
+
+{% block stylesheetpages %}
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
+{% endblock %}
+
+{% block content %}
+
+
+
+      <h2>Contact</h2>
+
+      <div class="container">
+        <p>En tant que chef à domicile, j'anticipe certaines préparations culinaires que je cuisine dans les locaux de restaurants partenaires (cuisines agréées pour les normes sanitaires de restauration). Je n'ai  donc pas de locaux à visiter ou pour me rencontrer.
+
+        Merci de prendre contact avec moi via le formulaire ci-dessous, par mail ou par téléphone.</p>
+
+     </div>
+
+
+
+
+
+
+<div class="row">
+  <div class="offset-2 col-4">
+
+      <form class="form-group" action="" method="post">
+
+        <select class="form-control" name="objet" id="Motif" value="Motif">
+          <option selected disabled>Motif :</option>
+            <option value="1">Objet</option>
+            <option value="2">Tenues</option>
+            <option value="3">Menus</option>
+            <option value="4">horaire</option>
+            <option value="5">matériel</option>
+        </select><br><br>
+
+
+        <input class="form-control" type="title" name="titre" placeholder="titre" { (form.titre, {'value' : 'Default title'} ) }><br><br>
+
+        <input class="form-control" type="email" name="email" placeholder="e-mail"><br><br>
+
+
+        <textarea class="form-control" name="message" rows="8" cols="60" placeholder="Votre message"></textarea><br><br>
+
+        <input type="submit" class="btn btn-light btn-lg" value="Envoyer">
+
+  </div>
+
+  <div class="info col-3">
+
+        <p>tel : 03 57 27 18 81</p>
+        <p>e-mail : charlottehofrez@gmail.com</p>
+
+  </div>
+      </form>
+  </div>
+</div>
+
+
+{% endblock %}

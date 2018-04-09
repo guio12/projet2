@@ -1,0 +1,50 @@
+{% extends 'layout.html.twig' %}
+
+{% block stylesheetpages %}
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
+{% endblock %}
+
+
+{% block content %}
+
+
+  <section class="row" id="activites">
+    <aside class="col-md">
+      <h2>Mes activités</h2>
+      <p>StrasCook est un service de confection de repas à domicile, intervenant à Strasbourg et son Eurometropole (voir en bas de page).</p>
+      <p>Vous voulez profiter d’un bon repas entre amis mais ne souhaitez pas faire des allers-retours incessants entre votre cuisine et la salle à manger ? Vous voulez impressionner vos convives en vous lançant dans des préparations hyper-élaborées mais craignez de les rater ?</p>
+      <p>Faites appel à un chef cuisinier comme le nôtre pour vous affranchir de ces contraintes particulièrement agaçantes.</p>
+    </aside>
+    <aside class="col-md">
+      <img src="/assets/img/activites.jpg" class="img-fluid" alt="Assiette d'oeufs durs sur lit de mâche">
+    </aside>
+  </section>
+  <section class="row" id="garanties">
+    <aside class="col-md">
+      <img src="/assets/img/garanties.jpg" class="img-fluid" alt="Mains façonnant de la pâte">
+    </aside>
+    <aside class="col-md order-first order-md-2">
+      <h2>Mes Garanties</h2>
+      <p>StrasCook c’est un chef expérimenté qui se déplace chez vous, avec les ingrédients et le matériel nécessaire*.</p>
+      <p>En adéquation avec le respect de l’environnement, StrasCook s’engage à ne cuisiner que des produits de saison et à favoriser autant que possible les produits locaux. C’est pourquoi, je ne vous proposerai jamais de desserts aux fraises en hiver (voir ci-dessous les tendances de la saison).</p>
+    </aside>
+  </section>
+  <section class="row" id="actu">
+    <aside class="col-md">
+      <h2>Au printemps, place aux gourmands !</h2>
+      <p>Le printemps pointe le bout de son nez. Radis, asperges, petits pois, oignons nouveaux...sont de sortie !</p>
+      <p>Il existe une quantité considérable de recettes s’articulant autour des légumes de printemps. C’est particulièrement à ce moment-là qu’on souhaite contrebalancer la richesse des plats hivernaux par des préparations légères, mais non moins savoureuses !</p>
+    </aside>
+    <aside class="col-md">
+      <img src="/assets/img/actu.jpg" class="img-fluid" alt="Mains tenant des myrtilles">
+    </aside>
+  </section>
+  <map class="row" id="carte">
+    <iframe class="col-lg" src="https://www.google.com/maps/d/embed?mid=16GGwOEa9yp-LH0PEVIusL9Ui9CB2kbSM" allowfullscreen></iframe>
+  </map>
+
+
+
+  {% endblock %}

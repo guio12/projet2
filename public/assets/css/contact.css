@@ -1,0 +1,20 @@
+
+
+.info {
+  padding-top: 180px;
+  font-size: 25px;
+}
+
+form{
+  margin-top: 40px ;
+}
+
+.btn, .btn:hover {
+  border: 1px solid black !important;
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+
+.form-control{
+  border: 1px solid black !important;
+}

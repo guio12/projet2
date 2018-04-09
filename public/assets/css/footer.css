@@ -1,0 +1,11 @@
+
+
+.jumbotron { color: white; border-radius: 0px !important;}
+
+p {text-align: center !important; margin: 10px !important;}
+
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none !important;
+	color: #FFF !important;
+}
