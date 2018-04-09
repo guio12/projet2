@@ -15,6 +15,7 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->addRoute('GET', '/item/edit/{id:\d+}', 'Item/edit');
     $r->addRoute('GET', '/accueil', 'Accueil/index');
     $r->addRoute('GET', '/lechef', 'Lechef/index');
+    $r->addRoute('GET', '/menu', 'Menu/index');
 });
 
 // Fetch method and URI from somewhere

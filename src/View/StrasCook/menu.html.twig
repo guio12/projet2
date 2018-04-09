@@ -1,0 +1,298 @@
+{% extends 'layout.html.twig' %}
+
+{% block stylesheetpages %}
+
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/menu.css">
+
+{% endblock %}
+
+
+{% block content %}
+
+<br>
+<h1>Menus</h1>
+<p class="bio">Dans une démarche de développement durable mais également de qualité gustative, tous les aliments (hors épices, assaisonnement) des menus sont issus de l'agriculture biologique et cultivés ou élevés en Alsace.
+</p>
+<h2 class="menu">Menus « Classiques »</h2>
+<hr>
+
+<div class="container">
+<!-- Colonne 1 -->
+  <div class="row">
+
+<!-- Image 1 - Menu Printanier -->
+    <div class="card col-sm-6 col-md-6 col-lg-4 col-xs-12">
+      <img class="card-img-top" src="/assets/img/img-menu/egg-salad.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2 class="card-title">Menu Printanier</h2>
+        <p class="card-text">Un menu renaissance composé de :
+        <ul>
+          <li>Asperges et œufs en cocotte, pointe de piment d'Espelette</li>
+          <li>Gigot de sept heures accompagné de légumes nouveaux</li>
+          <li>Tartelette Fraise-Balsamique sans sucre</li>
+        </ul>
+       </p>
+       <div class="bouton">
+        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalPrintanier">Détails</a>
+      </div>
+      </div>
+    </div>
+
+    <!-- Modal 1-->
+<div class="modal fade" id="modalPrintanier" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h2>Menu Printanier</h2>
+        <p>Un menu de renaissance réalisé avec des ingrédients de saison et locaux !</p>
+        <p><span class="titre">Asperges et œufs en cocotte, pointe de piment d'Espelette</span>
+        <br/>Les oeufs sont cuits façon cocotte et associés à des pointes d'asperges vertes, du parmesan, de la crème et une pointe de piment d'Espelette pour un résultat à la fois croquant et fondant irrésistible !<br>
+        <em>Œufs originaires de la Ferme Fix, Pfettisheim, et Asperges en provenance de la ferme Maurer, Dorlisheim.</em></p>
+        <p><span class="titre">Gigot de sept heures accompagné de légumes nouveaux</span>
+        <br/>Véritable recette de grand-mère, le gigot d'agneau et sa cuisson Sept Heures saura vous combler.<br>
+        Tellement fondant qu'il se sert à la cuillère !<br>
+        <em>Agneau originaire de la Ferme Meyer, Mittelschaeffolsheim.</em></p>
+        <p><span class="titre">Tartelette Fraise-Balsamique</span>
+        <br/>Originale, l'alliance entre les fraises, le vinaigre balsamique et le vin rouge va vous étonner agréablement. Garnies également de ricotta pour le côté crémeux, ces petites tartelettes sont par ailleurs réalisées sans sucre.<br>
+        <em>Fraises originaires de l'EARL de Jardin de Hanau, Ringendorf</em></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image 2 - Menu Gourmand -->
+    <div class="card col-sm-6 col-md-6 col-lg-4 col-xs-12">
+      <img class="card-img-top" src="/assets/img/img-menu/pintade.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2 class="card-title">Menu Gourmand</h2>
+        <p class="card-text">Un menu goumand et délicat :
+        <ul>
+          <li>Timbale de Saumon Fumé au fromage frais</li>
+          <li>Fondant de Pintade sur son lit de haricots</li>
+          <li>Variation de trois Chocolats et accompagnement fruité</li>
+        </ul>
+       </p>
+        <div class="bouton">
+         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalGourmand">Détails</a>
+       </div>
+      </div>
+    </div>
+
+    <!-- Modal 2-->
+<div class="modal fade" id="modalGourmand" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h2>Menu Gourmand</h2>
+        <p>Un menu qui ravira les palais les plus délicats et les plus gourmets !</p>
+        <p><span class="titre">Timbale de Saumon Fumé au fromage frais</span>
+        <br/>Un plat au goût très fin et bien parfumé pour une entrée toujours réussie !<br>
+        <em>Saumon originaire de l'entreprise Delpierre, Wisches.</em></p>
+        <p><span class="titre">Fondant de Pintade sur son lit de haricots</span>
+        <br/>Savoureuse, légère et gourmande, la Pintade se joue des saisons et promet de séduire le plus grand nombre. Servie sur un lit de haricots, elle séduira les palais les plus délicats.<br>
+        <em>Pintade originaire de la Ferme Schmitt, Bischoffsheim</em></p>
+        <p><span class="titre">Variation de trois Chocolats avec accompagnement fruité</span>
+        <br/>Toute les typicités du chocolat nuancées par ses infinies variations. L'une apporte de la rondeur, l'autre de la longueur en bouche, quand une touche de chocolat noir rehausse les saveurs des fruits… À tester sans hésiter !<br>
+        <em>Chocolat issu de la chocolaterie Anthony, Avolsheim.</em></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image 3 - Menu Tradition -->
+    <div class="card col-sm-6 col-md-6 col-lg-4 col-xs-12">
+      <img class="card-img-top" src="/assets/img/img-menu/onglet.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2 class="card-title">Menu Tradition</h2>
+        <p class="card-text">Un Menu très fin en bouche :
+        <ul>
+          <li>Salade de Gésiers et Foies de Volaille</li>
+          <li>Onglet de Bœuf «Angus » à la Fondue d’Echalotes</li>
+          <li>Kougelhopf Glacé au Marc de Gewurztraminer</li>
+        </ul>
+       </p>
+        <div class="bouton">
+         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalTradition">Détails</a>
+       </div>
+      </div>
+    </div>
+
+<!-- Modal 3-->
+    <div class="modal fade" id="modalTradition" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h2>Menu Tradition</h2>
+            <p>Un Menu qui allie qualité et tradition, et met à l'honneur les saveurs du terroir et les produits régionaux.</p>
+            <p><span class="titre">Salade de Gésiers et Foies de Volaille</span>
+            <br/>Gésiers et foies de volailles comptent parmi les abats les plus appréciés des gourmets : cette salade les ravira à coup sûr !<br>
+            <em>Gésiers et foies originaies de chez Feyel, Schiltigheim.</em></p>
+            <p><span class="titre">Onglet de Bœuf «Angus » à la Fondue d’Echalotes</span>
+            <br/>Grand classique de la cuisine traditionnelle française cet onglet marie une viande forte en goût sublimée par les échalotes.<br>
+            <em>Onglet de bœuf Angus originaire de la ferme de l'Oberfeld, Geispolsheim.</em></p>
+            <p><span class="titre">Kougelhopf Glacé au Marc de Gewurztraminer</span>
+            <br/>Ce kougelhopf glacé est idéal pour une fin de repas tout en fraîcheur et légèreté : le Marc de Gewurztraminer relève délicatement ses saveurs.<br>
+            <em>Marc de Gewurztraminer originaire du Domaine Schlumberger, Guebwiller.</em></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Fin de div "row" -->
+  </div>
+<!-- Fin de div "container" -->
+  </div>
+<br><br>
+
+<!-- MENUS VEGETARIENS -->
+  <h2 class="menu">Menus Végétariens</h2>
+  <hr>
+
+  <div class="container">
+  <!-- Colonne 2 -->
+    <div class="row">
+
+  <!-- Image 4 - Menu Banquet -->
+      <div class="card col-sm-6 col-md-6 col-lg-4 col-xs-12">
+        <img class="card-img-top" src="/assets/img/img-menu/gratin.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-title">Menu Banquet</h2>
+          <p class="card-text">Un menu gourmand et convivial :
+          <ul>
+            <li>Tarte Feuilletée aux jeunes pousses d'Épinards et Chèvre</li>
+            <li>Gratin de ravioles aux Cèpes, pointe de Comté Vieille Réserve</li>
+            <li>Tarte au Citron et sa Meringue caramélisée</li>
+          </ul>
+         </p>
+         <div class="bouton">
+          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalBanquet">Détails</a>
+        </div>
+        </div>
+      </div>
+
+      <!-- Modal 4-->
+  <div class="modal fade" id="modalBanquet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h2>Menu Banquet</h2>
+          <p>Un menu convivial qui propose des plats chaleureux, à déguster entre amis.</p>
+          <p><span class="titre">Tarte Feuilletée aux jeunes pousses d'Épinards et Chèvre</span>
+          <br/>Le mélange fin des jeunes pousses d'épinards et du chèvre mêlés à cette tarte est une vraie douceur… on a du mal à ne pas se resservir !<br>
+          <em>Épinards originaires du Jardin de Marthe, la Robertsau.</em></p>
+          <p><span class="titre">Gratin de ravioles aux Cèpes, pointe de Comté Vieille Réserve</span>
+          <br/>Un plat chaleureux qui apport une touche raffinée et gourmande au traditionnel gratin dauphinois avec cette version aux cèpes. <br>
+          <em>Cèpes cueillis dans les forêts Bas-Rhinoises.</em></p>
+          <p><span class="titre">Tarte au Citron et sa Meringue caramélisée</span>
+          <br/>Délicieuse et raffinée, cette tarte au citron meringuée est composée d'un fond de tarte de pâte sablée qui se marie au goût acidulé du citron jaune ainsi que de la meringue qui lui apporte une touche de douceur.<br>
+          <em>Citrons bio, originaires du Sud de la France</em></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image 5 - Le citadin -->
+      <div class="card col-sm-6 col-md-6 col-lg-4 col-xs-12">
+        <img class="card-img-top" src="/assets/img/img-menu/burger_vege.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-title">Le Citadin</h2>
+          <p class="card-text">Un menu inspiré de la ville :
+          <ul>
+            <li>Velouté Brocolis-Roquefort à la pointe de crème</li>
+            <li>Burger au Tofu et son Pain Noir, pousses de Roquette</li>
+            <li>Carrot Cake comme à New York et ses épices</li>
+          </ul>
+         </p>
+          <div class="bouton">
+           <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalCitadin">Détails</a>
+         </div>
+        </div>
+      </div>
+
+      <!-- Modal 5-->
+  <div class="modal fade" id="modalCitadin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h2>Le Citadin</h2>
+          <p>Un menu inspiré de la ville, pour les actifs soucieux d'une alimentation équilibrée :</p>
+          <p><span class="titre">Velouté Brocolis-Roquefort à la pointe de crème</span>
+          <br/>Cette recette végétarienne offre une grande originalité de goût et une grande diversité de saveurs ! Le brocoli allié au poireau et au roquefort est une vraie réussite gustative !<br>
+          <em>Brocolis et poireaux originaires du Jardin de Marthe, la Robertsau.</em></p>
+          <p><span class="titre">Burger au Tofu et son Pain Noir, pousses de Roquette</span>
+          <br/>Ce Burger végétarien aux goûts exotiques est étonnament goûtu ! L’houmous crémeux crée une base savoureuse alors que pain noir apporte le croustillant et les légumes la fraîcheur.<br>
+          <em>Légumes originaires de la Ferme Maurer, Dorlisheim</em></p>
+          <p><span class="titre">Carrot Cake comme à New York et ses épices</span>
+          <br/>Cette version du carrot cake contient la juste dose d'épices et de carottes, ainsi que des noix de Pécan pour le croquant ! Original, ce dessert ravira les fins gourmets !<br>
+          <em>Carottes originaires de la ferme Maurer, Dorlisheim.</em></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image 6 - Menu Dégustation -->
+      <div class="card col-sm-6 col-md-6 col-lg-4 col-xs-12">
+        <img class="card-img-top" src="/assets/img/img-menu/risotto.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-title">Menu Dégustation</h2>
+          <p class="card-text">Un Menu particulièrement délicat :
+          <ul>
+            <li>Salade de betteraves, grenades et noix de pécan</li>
+            <li>Risotto végétarien aux légumes de printemps</li>
+            <li>Crème Brûlée et sa touche de Vanille des Îles</li>
+          </ul>
+         </p>
+          <div class="bouton">
+           <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalDegustation">Détails</a>
+         </div>
+        </div>
+      </div>
+
+  <!-- Modal 6-->
+      <div class="modal fade" id="modalDegustation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <h2>Menu Dégustation</h2>
+              <p>Un Menu particulièrement fin en bouche, qui étonne par son explosion de saveurs !</p>
+              <p><span class="titre">Salade de betteraves, grenades et noix de pécan</span>
+              <br/>Des betteraves rôties, des noix de pécan, des grenades, accompagnées d’une vinaigrette à la figue et à l’orange, quoi de mieux pour débuter un repas sous le signe de la dégustation ?<br>
+              <em>Légumes originaires de la Ferme Maurer, Dorlisheim.</em></p>
+              <p><span class="titre">Risotto végétarien aux légumes de printemps</span>
+              <br/>Grande spécialité italienne, découvrez ce risotto végétarien aux légumes de printemps, asperges et fèves. Très simple mais d’une grande finesse et particulièrement savoureux !<br>
+              <em>Légumes originaires de la Ferme Maurer, Dorlisheim.</em></p>
+              <p><span class="titre">Crème Brûlée et sa touche de Vanille des Îles</span>
+              <br/>Une recette classique mais qui apporte toujours autant de douceur et de rondeur en bouche. Incontournabe !<br>
+              <em>Œufs et crème originaires de la ferme Maurer, Dorlisheim.</em></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- Fin de div "row" -->
+    </div>
+</div>
+
+
+
+
+{% endblock %}
