@@ -15,6 +15,7 @@ header {
    
     margin-bottom: 0 !important;
     padding-top: 3vh !important;
+    
 }
 
 body {    
@@ -25,7 +26,7 @@ body {
 
 .mynav {
     background-image: url("/assets/img/fond_header.jpg");
-    height: 70vh;
+    height: 75vh;
     background-size:cover;
     background-repeat: no-repeat;
     margin-top:0;
@@ -35,13 +36,18 @@ body {
 .mynav h1 {
     font-family: "Muli", cursive;
     color: white;
-    font-size: 8vh;
+    font-size: 1.7rem;
     margin-top: 15vh;
     margin-left: 20vw;
-    margin-right: 20vw;
-    justify-content:center;
+    margin-right: 15vw;
     align-content: center;
+    justify-content: center;
+    
+    text-shadow: 1px 1px;
 }
+
+
+
 
 .navbar {
     margin-left: 3vh;
@@ -111,9 +117,9 @@ button span {
 
 .nav-fill {
     font-family: "Oxygen", sans-serif;
-    font-size: 1vmax;
+    font-size: 1rem;
     color: white;
-    margin-left: 10vh;
+    margin-left: 5vh;
 }
 
 /* IDEE TRANSPARENCE MENU
@@ -149,5 +155,27 @@ button span {
 
 
 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .mynav h1 {font-size:2.5rem;} 
+    /*1rem = 16px*/
+  .nav-fill {font-size:1rem;} 
+}
 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .mynav h1 {font-size:2.5rem;} /*1rem = 16px*/
+    .nav-fill {font-size:1rem; } 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ .mynav h1 {font-size:3.3rem;} /*1rem = 16px*/
+    .nav-fill {font-size:0.5rem; } 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+ .mynav h1 {font-size:4rem;} /*1rem = 16px*/ .nav-fill {font-size:0.7rem; } 
+}
 
