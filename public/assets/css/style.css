@@ -2,18 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-.container-fluid {
-padding: 0;
-}
-
-aside {
-padding: 0 !important;
-}
-
-/*#img_accueil {
-    height: 40vw;
-}*/
-
 h2 {
 color: #FFB74D;
 font-family: 'Nothing You Could Do', cursive;
@@ -29,18 +17,30 @@ margin: 5%;
 text-align: justify;
 }
 
+@media screen and (min-width: 950px) {
+  p {
+  font-size: 20px;
+  } 
+}
+
+@media screen and (min-width: 1150px) {
+  p {
+  font-size: 24px;
+  } 
+}
+
+
+aside {
+padding: 0 !important;
+}
+
 aside p {
 padding-left: 5%;
 padding-right: 5%;
 }
 
-/* Carte de Strasbourg */
 iframe {
 border: 0;
-height: 320px;
-padding: 0 !important;
-}
-
-img {
+height: 400px;
 padding: 0 !important;
 }
